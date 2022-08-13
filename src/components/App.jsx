@@ -32,7 +32,7 @@ function App() {
   };
   const countPositiveFeedbackPercentage = () => {
     const positiveFeedback = state.good;
-    console.log(positiveFeedback);
+
     return Math.round((positiveFeedback / countTotalFeedback()) * 100);
   };
   return (
